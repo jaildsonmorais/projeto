@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #22E087;
+    --cor2: #1AAD69;
+    --cor3: #67E6AB;
+    --cor4: #0F613A;
+    --cor5: #0c0c0c;
+
+    --fonte-padrao: 'Roboto', sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'android', cursive;
+      
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+main a {
+    color:var(--cor4);
+    font-weight: bold;
+}
+
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    
+    
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+    
+}
+nav {
+    
+    background-color:var(--cor4);
+    padding: 10px;
+
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover {
+    background-color: var(--cor1);
+    
+}
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+header > p {
+    color: var(--cor0);
+       margin: auto;
+       text-shadow: 2px 2px 2px black;
+    
+       
+
+    
+}
+
+header > h1 {
+    color: var(--cor0);
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+article > h1 {
+    color: var(--cor5);
+   font-family:var(--fonte-android);
+
+}
+
+article > h2 {
+    font-family: var(--fonte-android);
+    
+}
+div.video {
+    background-color: var(--cor4);
+   position: relative;
+   padding-bottom: 50%;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+}
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    color:var(--cor0);
+    background-color: var(--cor4);
+    text-align: center;
+    font-size: 0,8em;
+    padding: 5px;
+    
+}
